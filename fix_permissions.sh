@@ -3,5 +3,5 @@
 find $1 -type f -regex ".*\.\("\
 "tex\|pdf\|mm\|tikz\|bst\|cls\|sty\|tcp\|bib\|m\|txt\|md\|freeplaneoptions"\
 "\|gitignore\|png\|jpg\|svg\|c\|h\|cpp\|hpp\|s\|inc\|ld\|mk\|xml\|readme"\
-"\|gpdsc\|project\|cproject\|doc\|docx\|xls\|xlsx\|csv"\
+"\|gpdsc\|project\|cproject\|doc\|docx\|xls\|xlsx\|csv\|ui"\
 "\)" -exec chmod 644 {} +
