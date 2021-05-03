@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 find $1 -type f -regex ".*\.\("\
 "tex\|pdf\|mm\|tikz\|bst\|cls\|sty\|tcp\|bib\|m\|txt\|md\|freeplaneoptions"\
