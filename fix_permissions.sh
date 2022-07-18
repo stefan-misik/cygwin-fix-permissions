@@ -5,3 +5,5 @@ find $1 -type f -regex ".*\.\("\
 "\|gitignore\|png\|jpg\|svg\|c\|h\|cpp\|hpp\|s\|inc\|ld\|mk\|xml\|readme"\
 "\|gpdsc\|project\|cproject\|doc\|docx\|xls\|xlsx\|csv\|ui\|css\|html\|js"\
 "\)" -exec chmod 644 {} +
+
+find $1 -type f -regex ".*\.\(exe\|bat\)" -exec chmod 755 {} +
