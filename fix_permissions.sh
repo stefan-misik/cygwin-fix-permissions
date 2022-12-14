@@ -7,3 +7,6 @@ find $1 -type f -regex ".*\.\("\
 "\)" -exec chmod 644 {} +
 
 find $1 -type f -regex ".*\.\(exe\|bat\)" -exec chmod 755 {} +
+
+find $1 -type f -regex ".*\.\(py\)" -exec chmod go-w {} +
+find $1 -type d -exec chmod go-w {} +
